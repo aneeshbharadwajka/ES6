@@ -1,5 +1,6 @@
 let userInputArray = process.argv.slice(2);
 var userObject = {};
-[, userObject.username, userObject.email] = userInputArray;
-
+var xyz=[];
+[, userObject.username, userObject.email,xyz] = userInputArray;
+console.log(xyz);
 console.log(userObject);
