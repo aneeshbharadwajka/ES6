@@ -1,3 +1,3 @@
-var message = `Hello, $(templateStringsExample.argv[2])
-Your name lowercased is $(templateStringsExample.argv[2].ToLowerCase())`;
+var name = process.argv[2] ;
+var message = `Hello, ${process.argv[2]}\nYour name lowercased is \"${process.argv[2].toLowerCase()}\".`;
 console.log(message);
